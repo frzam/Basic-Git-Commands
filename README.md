@@ -16,7 +16,7 @@
 
 ---
 |Commands                           | Usage           |
-|---                                |:---:            |
+|:---:                                |:---            |
 |  `git init`                       |Creates a git repository in specified Directory.  |
 | `git init --bare`                 |Bare Repository that contains no project data, only *.git* folder data. |
 |`git clone <url>`                  |To clone existing directory into the workspace.|
@@ -27,4 +27,3 @@
 |`git status`                      |List which file is staged, unstaged or untracked.|
 |`git log`                         |Display entire commit history using default format.|
 |`git diff`                        |Shows unstaged changes between your _Index_ and working directory.|
-| ---                                | --- |     
