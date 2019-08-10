@@ -42,3 +42,44 @@
 |`git push <remote> <branch>`       |Push the _\<branch>_ to _\<remote>_ with necessary commits and object.<br/>Create a named branch in the branch remote repo if it doesn't exit.|
 |`git push <remote> --delete <branch>`| Deletes a _\<remote>_ _\<branch>_.|
 |`git push <remote> <branch> --force` | Push the _\<branch>_ forcefully and update the _remote/branch_.
+
+
+## Branching and Merging
+|Command            |Usage              |
+|:---               |:---               |
+|`git branch`                       | List all local branches.|
+|`git branch -a`                    | List all branches local and remote.|
+|`git branch <branchName>`          | Create a new Branch|
+|`git branch -d <branchName>`       | Delete a local branch. __-D__ for hard delete.|
+|`git branch <remote> --delete <branchName>`|Delete a remote branch.|
+|`git checkout -b <branchName>`      |Create a new branch _\<branchName>_ and switch to it.|
+|`git checkout -b <branchName> <origin/branchName>` | Clone a new branch and switch to it.|
+|`git branch -m <oldBranchName> <newBranchName>`    | Rename a local branch.|
+|`git checkout <branchName>` | Switch to _\<branchName>_.
+|`git checkout --<fileName>`        | Discard changes to a file.|
+|`git merge <branchName>`           | Merge a branch into active branch.|
+|`git merge <source> <target>`      | Merge _\<sourceBranch>_ to _\<targetBranch>_.
+|`git stash`                        | Stash changes in working directory.|
+|`git stash clear`                  | Remove all stashed entries.|  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
