@@ -27,3 +27,12 @@
 |`git status`                      |List which file is staged, unstaged or untracked.|
 |`git log`                         |Display entire commit history using default format.|
 |`git diff`                        |Shows unstaged changes between your _Index_ and working directory.|
+
+
+## Git Remote Repository
+---
+|Command                            |Usage|
+|:---                               |:--- |
+|`git remote add <name> <url>`      | Creates a new connection to a remote repository. You can use _\<name>_ as shortcut for _\<url>_ in other commands. __Example__ : `git remote add origin master`|
+|`git remote rm <name>`             |Remove a remote connection|
+|`git remote -v`                    |Display all the remote _\<name>_ with _\<url>_.
