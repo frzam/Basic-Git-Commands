@@ -33,6 +33,6 @@
 ---
 |Command                            |Usage|
 |:---                               |:--- |
-|`git remote add <name> <url>`      | Creates a new connection to a remote repository. You can use _\<name>_ as shortcut for _\<url>_ in other commands. __Example__ : `git remote add origin master`|
+|`git remote add <name> <url>`      | Creates a new connection to a remote repository. You can use _\<name>_ as <br/> shortcut for _\<url>_ in other commands. __Example__ : `git remote add origin master`|
 |`git remote rm <name>`             |Remove a remote connection|
-|`git remote -v`                    |Display all the remote _\<name>_ with _\<url>_.
+|`git remote -v`                    |Display all the remotes _\<name>_ with _\<url>_.|
