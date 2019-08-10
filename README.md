@@ -13,7 +13,7 @@
 
 ---
 ## Git Basics
-
+---
 |Commands                 | Usage       |
 |:---                     |:---         |
 |  `git init`                       |Creates a git repository in specified Directory.  |
@@ -29,7 +29,7 @@
 ---
 
 ## Git Remote Repository
-
+---
 |Command                            |Usage|
 |:---                               |:--- |
 |`git remote add <name> <url>`      | Creates a new connection to a remote repository. You can use _\<name>_ as  shortcut  for _\<url>_ <br/> in other commands. __Example__ : `git remote add origin master`|
@@ -44,6 +44,7 @@
 ---
 
 ## Branching and Merging
+---
 |Command            |Usage              |
 |:---               |:---               |
 |`git branch`                       | List all local branches.|
@@ -63,6 +64,7 @@
 ---
 
 ## Git config
+---
 |Command                     |Usage        |
 |:---                        |:---         |
 |`git config --global user.name <name>`| Define the author name to be used for all commits by current user.|
@@ -71,8 +73,40 @@
 |`git config --global --edit`             |Open  global config file in a text editor.|
 |`git config --global alias.<aliasName> <command>`  | Create a shortcut for git command.| 
 
+---
+## Git log
+---
+|Command                    |Usage         |
+|:---                       |:---          |
+|`git log -limit`           | Limit number of commits. **Example** : `git log -5`|
+|`git log --oneline`        |Condense each commit to single line.|
+|`git log -p`               |Display the full difference of each commit.|
+|`git log --stat`           |Includes which file were altered and the relative number of lines.|
+|`git log --author="<pattern>"`  |Search for commits by a particular author.|
+|`git log --grep="<pattern>"`    |Search for commits with a commit message that matches a _pattern_.|
+|`git log <since> ... <until>`      | Shows commits that occur between two commits, branch Name, HEAD or any kind of reference.|
+|`git log --<fileName>`             |Only display commits that have specified file.|
+|`git log --graph --decorate`       |Display a text based graph of commits on left side of commit|
+|`git log before= "<Date>" --pretty=format :"%c"` | shows log of commit before specified commit date.| 
+|`git log after= "<Date>" --pretty=format :"%c"` | shows log of commit after specified commit date.|  
+|`git log --after "Date" --before "Date"`|Filter commits by date range.|
+|`git log --pretty=format:<options>`| Print log in specified format.
 
+---
+### Format table
+---
+|Format     |Defination|
+|:---       |:---      |
+|`%H`       | Commit hash|
+|`%h`       | Abbreviated Commit hash|
+|`%T`       | Tree hash|
+|`%t`       | Abbreviated tree hash|
+|`%an`      | Author name|
+|`%as`      | Author email|
+|`%cd`      | Committer Date|
+|`%s`       | Commit message|
 
+---
 
 
 
