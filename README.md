@@ -17,7 +17,6 @@
 ---
 |Commands                 | Usage       |
 |:---                     |:---         |
-                               
 |  `git init`                       |Creates a git repository in specified Directory.  |
 | `git init --bare`                 |Bare Repository that contains no project data, only *.git* folder data. |
 |`git clone <url>`                  |To clone existing directory into the workspace.|
