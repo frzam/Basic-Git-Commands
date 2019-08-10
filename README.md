@@ -33,11 +33,12 @@
 ---
 |Command                            |Usage|
 |:---                               |:--- |
-|`git remote add <name> <url>`      | Creates a new connection to a remote repository. You can use _\<name>_ as  shortcut <br/> for _\<url>_ in other commands. __Example__ : `git remote add origin master`|
+|`git remote add <name> <url>`      | Creates a new connection to a remote repository. You can use _\<name>_ as  shortcut  for _\<url>_ <br/> in other commands. __Example__ : `git remote add origin master`|
 |`git remote rm <name>`             |Remove a remote connection|
 |`git remote -v`                    |Display all the remotes _\<name>_ with _\<url>_.|
-|`git fetch <remote> <branch>`      | Fetch the specified _\<branch>_ from _\<remote>_. <br/>`git fetch <remote>` to fetch all _branches_.
+|`git fetch <remote> <branch>`      | Fetch the specified _\<branch>_ from _\<remote>_. `git fetch <remote>` <br/>to fetch all _branches_.
 |`git pull <remote>`                | Fetch the current branch and immediately merge into the local branch.|
 |`git pull <remote> <branch>`       |Fetch the specified _\<branch>_ and merge it into the local copy.
 |`git push <remote> <branch>`       |Push the _\<branch>_ to _\<remote>_ with necessary commits and object.<br/>Create a named branch in the branch remote repo if it doesn't exit.|
-|`git push <remote> --deletes <branch>`| Delete a _\<remote>_ _\<branch>_.
+|`git push <remote> --delete <branch>`| Deletes a _\<remote>_ _\<branch>_.|
+|`git push <remote> <branch> --force` | Push the _\<branch>_ forcefully and update the _remote/branch_.
