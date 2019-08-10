@@ -2,6 +2,7 @@
 Git is the free and open source distributed version control system that's responsible for everything GitHub
 related that happens locally on your computer. This refers the most important and commonly
 used Git commands for easy reference.
+> You can download the pdf format from [here](https://drive.google.com/open?id=1H9h8UCDP2KIXedLFC1lJQqJIQuoTBLWg).
 
 ---
 ## Sections
