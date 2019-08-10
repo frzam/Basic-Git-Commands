@@ -63,7 +63,7 @@
 |`git stash clear`                  | Remove all stashed entries.|
 ---
 
-## Git config
+## Git Config
 ---
 |Command                     |Usage        |
 |:---                        |:---         |
@@ -74,7 +74,7 @@
 |`git config --global alias.<aliasName> <command>`  | Create a shortcut for git command.| 
 
 ---
-## Git log
+## Git Log
 ---
 |Command                    |Usage         |
 |:---                       |:---          |
@@ -107,10 +107,15 @@
 |`%s`       | Commit message|
 
 ---
+## Rewriting History
+---
+|Command        |Usage          |
+|:---           |:---           |
+|`git commit --amend`|Replace the last commit staged changes and last commit combined using with nothing staged to edit commit message.|
+|`git rebase <base>`|Rebase current branch to _tag_, _commit_ or _reference_.|
+|`git reflog`|shows a log of changes to local repository's HEAD.|
 
-
-
-
+----
 
 
 
