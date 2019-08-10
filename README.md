@@ -2,7 +2,7 @@
 
 ## Sections
 * [Git Basics](#git-basics)
-
+* [Remote Repository](#git-remote-repository)
 
 
 
