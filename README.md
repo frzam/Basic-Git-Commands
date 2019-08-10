@@ -60,7 +60,17 @@
 |`git merge <branchName>`           | Merge a branch into active branch.|
 |`git merge <source> <target>`      | Merge _\<sourceBranch>_ to _\<targetBranch>_.
 |`git stash`                        | Stash changes in working directory.|
-|`git stash clear`                  | Remove all stashed entries.|  
+|`git stash clear`                  | Remove all stashed entries.|
+
+## Git config
+---
+|Command                     |Usage        |
+|:---                        |:---         |
+|`git config --global user.name <name>`| Define the author name to be used for all commits by current user.|
+|`git config --global user.email <email>`|Define the author email to be used for all the commits by current user.|
+|`git config --system core.editor <editor>`| Set the text editor.|
+|`git config --global --edit`             |Open  global config file in a text editor.|
+|`git config --global alias.<aliasName> <command>`  | Create a shortcut for git command.| 
 
 
 
