@@ -1,11 +1,17 @@
 # Basic Git Commands
+Git is the free and open source distributed version control system that's responsible for everything GitHub
+related that happens locally on your computer. This refers the most important and commonly
+used Git commands for easy reference.
 
+---
 ## Sections
 * [Git Basics](#git-basics)
 * [Remote Repository](#git-remote-repository)
-
-
-
+* [Branching And Merging](#branching-and-merging)
+* [Git Config](#git-config)
+* [Git Log](#git-log)
+* [Rewriting History](#rewriting-history)
+* [Undoing Changes](#undoing-changes)
 
 
 
@@ -13,7 +19,6 @@
 
 ---
 ## Git Basics
----
 |Commands                 | Usage       |
 |:---                     |:---         |
 |  `git init`                       |Creates a git repository in specified Directory.  |
@@ -29,7 +34,7 @@
 ---
 
 ## Git Remote Repository
----
+
 |Command                            |Usage|
 |:---                               |:--- |
 |`git remote add <name> <url>`      | Creates a new connection to a remote repository. You can use _\<name>_ as  shortcut  for _\<url>_ <br/> in other commands. __Example__ : `git remote add origin master`|
@@ -44,7 +49,6 @@
 ---
 
 ## Branching and Merging
----
 |Command            |Usage              |
 |:---               |:---               |
 |`git branch`                       | List all local branches.|
@@ -64,7 +68,6 @@
 ---
 
 ## Git Config
----
 |Command                     |Usage        |
 |:---                        |:---         |
 |`git config --global user.name <name>`| Define the author name to be used for all commits by current user.|
@@ -75,7 +78,6 @@
 
 ---
 ## Git Log
----
 |Command                    |Usage         |
 |:---                       |:---          |
 |`git log -limit`           | Limit number of commits. **Example** : `git log -5`|
@@ -94,7 +96,6 @@
 
 ---
 ### Format table
----
 |Format     |Defination|
 |:---       |:---      |
 |`%H`       | Commit hash|
@@ -108,7 +109,6 @@
 
 ---
 ## Rewriting History
----
 |Command        |Usage          |
 |:---           |:---           |
 |`git commit --amend`|Replace the last commit staged changes and last commit combined using with nothing staged to edit commit message.|
@@ -117,6 +117,13 @@
 
 ----
 
+## Undoing changes
+|Command|Usage|
+|:---|:---|
+|`git revert <commit>`|Create a new commit that undergoes all the changes made in _\<commit>_ then apply it to current branch.|
+|`git reset <file>`|Removes the file from staging area, but leaves the working directory unchanged.|
+|`git clean -n`|Show which files would be removed from working directory.|
+|`git clean -f`|Cleans the files from working directory.|
 
 
 
