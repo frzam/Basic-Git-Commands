@@ -11,10 +11,9 @@
 
 
 
-
+---
 ## Git Basics
 
----
 |Commands                 | Usage       |
 |:---                     |:---         |
 |  `git init`                       |Creates a git repository in specified Directory.  |
@@ -27,10 +26,10 @@
 |`git status`                      |List which file is staged, unstaged or untracked.|
 |`git log`                         |Display entire commit history using default format.|
 |`git diff`                        |Shows unstaged changes between your _Index_ and working directory.|
-
+---
 
 ## Git Remote Repository
----
+
 |Command                            |Usage|
 |:---                               |:--- |
 |`git remote add <name> <url>`      | Creates a new connection to a remote repository. You can use _\<name>_ as  shortcut  for _\<url>_ <br/> in other commands. __Example__ : `git remote add origin master`|
@@ -42,7 +41,7 @@
 |`git push <remote> <branch>`       |Push the _\<branch>_ to _\<remote>_ with necessary commits and object.<br/>Create a named branch in the branch remote repo if it doesn't exit.|
 |`git push <remote> --delete <branch>`| Deletes a _\<remote>_ _\<branch>_.|
 |`git push <remote> <branch> --force` | Push the _\<branch>_ forcefully and update the _remote/branch_.
-
+---
 
 ## Branching and Merging
 |Command            |Usage              |
@@ -61,9 +60,9 @@
 |`git merge <source> <target>`      | Merge _\<sourceBranch>_ to _\<targetBranch>_.
 |`git stash`                        | Stash changes in working directory.|
 |`git stash clear`                  | Remove all stashed entries.|
+---
 
 ## Git config
----
 |Command                     |Usage        |
 |:---                        |:---         |
 |`git config --global user.name <name>`| Define the author name to be used for all commits by current user.|
